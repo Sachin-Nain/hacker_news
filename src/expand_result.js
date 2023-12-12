@@ -13,7 +13,7 @@ function Expand_Result(props) {
 
   useEffect(() => {
     axios
-      .get(`http://hn.algolia.com/api/v1/items/${props.id}`)
+      .get(`http://hn.algolia.com/api/v1/items/${props.id || 1}`)
       .then((response) => {
         console.log(response.data);
         setData(response.data);
