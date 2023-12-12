@@ -78,7 +78,7 @@ function Expand_Result(props) {
             <div className="gotoTop">
               <a href="#subsection">
                 <img
-                  src={require("./top1.png")}
+                  src={require("./images/top1.png")}
                   alt="go to top"
                   style={{ borderRadius: "60px", width: "100%" }}
                 />
